@@ -17,16 +17,6 @@ Play against another player or challenge the computer AI.
 - 🔹 Sound effects for moves & wins  
 - 🔹 Reset option  
 
----
-
-## 📂 Project Structure
-tic-tac-toe/
-│── index.html # Game layout
-│── style.css # Futuristic design
-│── script.js # Game logic & sounds
-│── README.md # Project details
-
----
 
 ## 🕹️ How to Play
 1. Select **Player vs Player** or **Player vs Computer**.  
