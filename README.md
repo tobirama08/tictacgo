@@ -6,7 +6,7 @@ Play against another player or challenge the computer AI.
 ---
 
 ## 🚀 Live Demo
-👉 [Play the Game](https://your-username.github.io/tic-tac-toe/)
+👉 [Play the Game]([https://your-username.github.io/tic-tac-toe/](https://tobirama08.github.io/tictacgo/))
 
 ---
 
