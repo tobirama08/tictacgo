@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Tic Tac Toe</h1>
+    <div class="mode-select">
+        <button onclick="setMode('pvp')">Player vs Player</button>
+        <button onclick="setMode('cpu')">Player vs Computer</button>
+    </div>
+    <div id="board" class="board"></div>
+    <p id="status"></p>
+    <button id="resetBtn" onclick="resetGame()">Reset</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

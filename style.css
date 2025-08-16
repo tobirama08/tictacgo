@@ -1,0 +1,112 @@
+body {
+  font-family: "Orbitron", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: radial-gradient(circle at top, #0f2027, #203a43, #2c5364);
+  color: #00f7ff;
+}
+
+.container {
+  text-align: center;
+  background: rgba(10, 10, 20, 0.85);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px #00f7ff, 0 0 50px #00f7ff inset;
+  border: 2px solid #00f7ff;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  text-shadow: 0 0 15px #00f7ff, 0 0 25px #00f7ff;
+}
+
+.mode-select button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #00f7ff;
+  border-radius: 12px;
+  background: transparent;
+  color: #00f7ff;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #00f7ff, 0 0 20px #00f7ff inset;
+}
+
+.mode-select button:hover {
+  background: #00f7ff;
+  color: #000;
+  transform: scale(1.1);
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 12px;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background: rgba(20, 20, 40, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  color: #00f7ff;
+  border: 2px solid #00f7ff;
+  transition: 0.3s;
+  box-shadow: 0 0 15px #00f7ff, 0 0 25px #00f7ff inset;
+}
+
+.cell:hover {
+  background: #00f7ff;
+  color: #000;
+  transform: scale(1.1);
+}
+
+.cell.X {
+  color: #ff2965;
+  text-shadow: 0 0 10px #ff2965, 0 0 20px #ff2965;
+}
+
+.cell.O {
+  color: #29ffb6;
+  text-shadow: 0 0 10px #29ffb6, 0 0 20px #29ffb6;
+}
+
+#status {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #00f7ff;
+  text-shadow: 0 0 10px #00f7ff;
+}
+
+#resetBtn {
+  margin-top: 15px;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: 2px solid #00f7ff;
+  border-radius: 12px;
+  background: transparent;
+  color: #00f7ff;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #00f7ff, 0 0 20px #00f7ff inset;
+}
+
+#resetBtn:hover {
+  background: #00f7ff;
+  color: #000;
+  transform: scale(1.1);
+}
