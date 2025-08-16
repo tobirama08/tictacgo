@@ -26,8 +26,10 @@ Play here 👉 [Tic Tac Go](https://tobirama08.github.io/tictacgo/)
 
 ---
 
-## 🛠️ Setup (for local play)
-1. Clone the repository:
+## ⚙️ Setup (for local play)
+
+1. **Clone the repository**
    ```bash
- git clone https://github.com/tobirama08/tictacgo.git
+   git clone https://github.com/tobirama08/tictacgo.git
+
 
