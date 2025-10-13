@@ -5,42 +5,42 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background: radial-gradient(circle at top, #0f2027, #203a43, #2c5364);
-  color: #00f7ff;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: #e2e8f0;
 }
 
 .container {
   text-align: center;
-  background: rgba(10, 10, 20, 0.85);
+  background: rgba(30, 41, 59, 0.85);
   padding: 30px;
   border-radius: 20px;
-  box-shadow: 0 0 25px #00f7ff, 0 0 50px #00f7ff inset;
-  border: 2px solid #00f7ff;
+  box-shadow: 0 0 20px rgba(100, 149, 237, 0.3);
+  border: 1px solid rgba(100, 149, 237, 0.5);
 }
 
 h1 {
   margin-bottom: 20px;
-  font-size: 2.5em;
-  text-shadow: 0 0 15px #00f7ff, 0 0 25px #00f7ff;
+  font-size: 2.3em;
+  color: #e2e8f0;
+  text-shadow: 0 0 8px rgba(100, 149, 237, 0.5);
 }
 
 .mode-select button {
   margin: 5px;
   padding: 10px 20px;
   font-size: 16px;
-  border: 2px solid #00f7ff;
-  border-radius: 12px;
-  background: transparent;
-  color: #00f7ff;
+  border: 2px solid #64748b;
+  border-radius: 10px;
+  background: #1e293b;
+  color: #e2e8f0;
   cursor: pointer;
   transition: 0.3s;
-  box-shadow: 0 0 10px #00f7ff, 0 0 20px #00f7ff inset;
 }
 
 .mode-select button:hover {
-  background: #00f7ff;
-  color: #000;
-  transform: scale(1.1);
+  background: #64748b;
+  color: #fff;
+  transform: scale(1.05);
 }
 
 .board {
@@ -54,59 +54,55 @@ h1 {
 .cell {
   width: 100px;
   height: 100px;
-  background: rgba(20, 20, 40, 0.9);
+  background: #0f172a;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2.5em;
   font-weight: bold;
-  border-radius: 15px;
+  border-radius: 12px;
   cursor: pointer;
-  color: #00f7ff;
-  border: 2px solid #00f7ff;
+  color: #e2e8f0;
+  border: 2px solid #334155;
   transition: 0.3s;
-  box-shadow: 0 0 15px #00f7ff, 0 0 25px #00f7ff inset;
 }
 
 .cell:hover {
-  background: #00f7ff;
-  color: #000;
-  transform: scale(1.1);
+  background: #1e293b;
+  transform: scale(1.08);
 }
 
 .cell.X {
-  color: #ff2965;
-  text-shadow: 0 0 10px #ff2965, 0 0 20px #ff2965;
+  color: #ef4444; /* red tone for X */
+  text-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
 }
 
 .cell.O {
-  color: #29ffb6;
-  text-shadow: 0 0 10px #29ffb6, 0 0 20px #29ffb6;
+  color: #22d3ee; /* cyan tone for O */
+  text-shadow: 0 0 10px rgba(34, 211, 238, 0.5);
 }
 
 #status {
   margin-top: 15px;
   font-weight: bold;
   font-size: 20px;
-  color: #00f7ff;
-  text-shadow: 0 0 10px #00f7ff;
+  color: #cbd5e1;
 }
 
 #resetBtn {
   margin-top: 15px;
   padding: 10px 25px;
   font-size: 16px;
-  border: 2px solid #00f7ff;
-  border-radius: 12px;
-  background: transparent;
-  color: #00f7ff;
+  border: 2px solid #64748b;
+  border-radius: 10px;
+  background: #1e293b;
+  color: #e2e8f0;
   cursor: pointer;
   transition: 0.3s;
-  box-shadow: 0 0 10px #00f7ff, 0 0 20px #00f7ff inset;
 }
 
 #resetBtn:hover {
-  background: #00f7ff;
-  color: #000;
-  transform: scale(1.1);
+  background: #64748b;
+  color: #fff;
+  transform: scale(1.05);
 }
