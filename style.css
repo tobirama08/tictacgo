@@ -73,12 +73,12 @@ h1 {
 }
 
 .cell.X {
-  color: #ef4444; /* red tone for X */
+  color: #ef4444; 
   text-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
 }
 
 .cell.O {
-  color: #22d3ee; /* cyan tone for O */
+  color: #22d3ee; 
   text-shadow: 0 0 10px rgba(34, 211, 238, 0.5);
 }
 
@@ -106,3 +106,4 @@ h1 {
   color: #fff;
   transform: scale(1.05);
 }
+
